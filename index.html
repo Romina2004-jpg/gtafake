@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mini GTA HTML5</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <h1>Mini GTA HTML5</h1>
+  <p>Usa WASD o flechas para moverte y presiona V para la visión de infraestructura.</p>
+  <div id="gameContainer">
+    <canvas id="gameCanvas" width="900" height="500"></canvas>
+  </div>
+  <div id="hud">
+    <span>Visión: <strong id="visionState">OFF</strong></span>
+  </div>
+  <script type="module" src="js/game.js"></script>
+</body>
+</html>
